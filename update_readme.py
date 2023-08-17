@@ -15,9 +15,7 @@ def generate_icon_urls(directory: str) -> tuple:
 
 
 def update_readme(readme_path: str, icon_urls: tuple) -> None:
-    sorted_icon_urls = sorted(
-        icon_urls, key=lambda x: x[0]
-    )  # Sort the list of tuples by filename
+    sorted_icon_urls = sorted(icon_urls, key=lambda x: x[0])
 
     with open(readme_path, "r") as f:
         readme_content = f.read()
