@@ -3,7 +3,7 @@ name: Update README Icons
 on:
   push:
     branches:
-      - actions  # Change to your default branch name
+      - main  # Change to your default branch name
 
 jobs:
   update_readme:

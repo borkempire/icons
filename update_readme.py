@@ -5,7 +5,7 @@ def generate_icon_urls(directory):
     icon_urls = []
     for filename in os.listdir(directory):
         if filename.endswith(".png"):  # Adjust file extension as needed
-            raw_url = f"https://raw.githubusercontent.com/borkempire/icons/actions/icons/{filename}"
+            raw_url = f"https://raw.githubusercontent.com/borkempire/icons/main/icons/{filename}"
             icon_urls.append(
                 (filename, raw_url)
             )  # Append a tuple (filename, raw_url) to the list
