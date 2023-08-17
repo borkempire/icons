@@ -4,7 +4,9 @@ import os
 def generate_icon_urls(directory: str) -> tuple:
     icon_urls = []
     for filename in os.listdir(directory):
-        if filename.endswith(".png"):  # Adjust file extension as needed
+        if filename.endswith(".png") or filename.endswith(
+            ".svg"
+        ):  # Adjust file extension as needed
             raw_url = f"https://raw.githubusercontent.com/borkempire/icons/main/icons/{filename}"
             icon_urls.append(
                 (filename, raw_url)
