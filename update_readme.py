@@ -6,7 +6,9 @@ def generate_icon_urls(directory):
     for filename in os.listdir(directory):
         if filename.endswith(".png"):  # Adjust file extension as needed
             raw_url = f"https://raw.githubusercontent.com/borkempire/icons/actions/icons/{filename}"
-            icon_urls.append(raw_url)  # Append raw_url to the list
+            icon_urls.append(
+                (filename, raw_url)
+            )  # Append a tuple (filename, raw_url) to the list
     return icon_urls
 
 
@@ -14,7 +16,7 @@ def update_readme(readme_path, icon_urls):
     with open(readme_path, "r") as f:
         readme_content = f.read()
 
-    # Find the section where you want to insert the URLs, e.g., <!-- ICONS START --> and <!-- ICONS END -->
+    # Find the section where you want to insert the table, e.g., <!-- ICONS START --> and <!-- ICONS END -->
     start_marker = "<!-- ICONS START -->"
     end_marker = "<!-- ICONS END -->"
 
@@ -22,13 +24,22 @@ def update_readme(readme_path, icon_urls):
     end_index = readme_content.find(end_marker)
 
     if start_index != -1 and end_index != -1:
-        # Generate the Markdown list of raw URLs
-        raw_urls_list = "\n".join([f"- {url}" for url in icon_urls])
+        # Generate the Markdown table of filenames and raw URLs with smaller text
+        table_header = (
+            "| <small>filename</small> | <small>raw url</small> |\n| --- | --- |"
+        )
+        table_rows = "\n".join(
+            [
+                f"| <small>{filename}</small> | <small>{raw_url}</small> |"
+                for filename, raw_url in icon_urls
+            ]
+        )
+        markdown_table = f"{table_header}\n{table_rows}"
 
-        # Update the section with the generated URLs
+        # Update the section with the generated table
         updated_readme = (
             readme_content[: start_index + len(start_marker)]
-            + f"\n{raw_urls_list}\n"
+            + f"\n{markdown_table}\n"
             + readme_content[end_index:]
         )
 
