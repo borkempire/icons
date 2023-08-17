@@ -13,6 +13,10 @@ def generate_icon_urls(directory):
 
 
 def update_readme(readme_path, icon_urls):
+    sorted_icon_urls = sorted(
+        icon_urls, key=lambda x: x[0]
+    )  # Sort the list of tuples by filename
+
     with open(readme_path, "r") as f:
         readme_content = f.read()
 
@@ -27,7 +31,7 @@ def update_readme(readme_path, icon_urls):
         # Generate the Markdown table of filenames and raw URLs
         table_header = "| filename | raw url |\n| --- | --- |"
         table_rows = "\n".join(
-            [f"| {filename} | {raw_url} |" for filename, raw_url in icon_urls]
+            [f"| {filename} | {raw_url} |" for filename, raw_url in sorted_icon_urls]
         )
         markdown_table = f"{table_header}\n{table_rows}"
 
