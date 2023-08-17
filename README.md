@@ -10,6 +10,12 @@ Collection of icons which can be referenced in services.
 | artemis_logo.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/artemis_logo.png |
 | aws_logo.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/aws_logo.png |
 | cerebro_logo_bw.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/cerebro_logo_bw.png |
+| docker_logo_primary_black.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/docker_logo_primary_black.png |
+| docker_logo_primary_black_text.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/docker_logo_primary_black_text.png |
+| docker_logo_primary_blue.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/docker_logo_primary_blue.png |
+| docker_logo_primary_blue_text.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/docker_logo_primary_blue_text.png |
+| docker_logo_primary_white.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/docker_logo_primary_white.png |
+| docker_logo_primary_white_text.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/docker_logo_primary_white_text.png |
 | elastic-elasticsearch-logo-black-and-white.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/elastic-elasticsearch-logo-black-and-white.png |
 | elastic-elasticsearch-logo.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/elastic-elasticsearch-logo.png |
 | grafana_logo_black.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/grafana_logo_black.png |
