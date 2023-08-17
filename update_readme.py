@@ -1,9 +1,6 @@
 import os
 
 
-import os
-
-
 def generate_icon_urls(directory):
     icon_urls = []
     for filename in os.listdir(directory):
@@ -27,11 +24,11 @@ def update_readme(readme_path, icon_urls):
     end_index = readme_content.find(end_marker)
 
     if start_index != -1 and end_index != -1:
-        # Generate the Markdown table of filenames and raw URLs with smaller text using inline style attributes
-        table_header = "| <span style='font-size:small'>filename</span> | <span style='font-size:small'>raw url</span> |\n| --- | --- |"
+        # Generate the Markdown table of filenames and raw URLs with smaller text using HTML Markdown Extra
+        table_header = "| <span style='font-size: smaller'>filename</span> | <span style='font-size: smaller'>raw url</span> |\n| --- | --- |"
         table_rows = "\n".join(
             [
-                f"| <span style='font-size:small'>{filename}</span> | <span style='font-size:small'>{raw_url}</span> |"
+                f"| <span style='font-size: smaller'>{filename}</span> | <span style='font-size: smaller'>{raw_url}</span> |"
                 for filename, raw_url in icon_urls
             ]
         )
