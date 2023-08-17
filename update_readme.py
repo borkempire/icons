@@ -1,7 +1,7 @@
 import os
 
 
-def generate_icon_urls(directory):
+def generate_icon_urls(directory: str) -> tuple:
     icon_urls = []
     for filename in os.listdir(directory):
         if filename.endswith(".png"):  # Adjust file extension as needed
@@ -12,7 +12,7 @@ def generate_icon_urls(directory):
     return icon_urls
 
 
-def update_readme(readme_path, icon_urls):
+def update_readme(readme_path: str, icon_urls: tuple) -> None:
     sorted_icon_urls = sorted(
         icon_urls, key=lambda x: x[0]
     )  # Sort the list of tuples by filename
@@ -47,8 +47,8 @@ def update_readme(readme_path, icon_urls):
 
 
 if __name__ == "__main__":
-    icons_directory = "icons"  # Update with your icons directory path
-    readme_file = "README.md"  # Update with your README.md file path
+    icons_directory = "icons"
+    readme_file = "README.md"
 
     icon_urls = generate_icon_urls(icons_directory)
     update_readme(readme_file, icon_urls)

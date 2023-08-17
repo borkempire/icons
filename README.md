@@ -4,6 +4,8 @@
 
 Collection of icons which can be referenced in services.
 
+## Logo list
+
 <!-- ICONS START -->
 | filename | raw url |
 | --- | --- |
@@ -33,3 +35,9 @@ Collection of icons which can be referenced in services.
 | prometheus_logo_red.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/prometheus_logo_red.png |
 | vault_logo.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/vault_logo.png |
 <!-- ICONS END -->
+
+## How to update
+
+1. Add new png image file to **icons** directory
+2. Rename if needed to the following naming convention: *<tool>_logo_<info>*
+3. Commit changes
