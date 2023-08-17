@@ -1,6 +1,6 @@
 # Icons
 
-[![Update README Icons](https://github.com/borkempire/icons/main/workflows/update_readme.yml/badge.svg)](https://github.com/borkempire/icons/main/workflows/update_readme.yml)
+[![Update README Icons](https://github.com/borkempire/icons/actions/workflows/update_readme.yml/badge.svg)](https://github.com/borkempire/icons/actions/workflows/update_readme.yml)
 
 Collection of icons which can be referenced in services.
 
