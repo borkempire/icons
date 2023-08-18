@@ -23,6 +23,9 @@ Collection of icons which can be referenced in services.
 | elastic-elasticsearch-logo-black-and-white.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/elastic-elasticsearch-logo-black-and-white.png |
 | elastic-elasticsearch-logo-vector.svg | https://raw.githubusercontent.com/borkempire/icons/main/icons/elastic-elasticsearch-logo-vector.svg |
 | elastic-elasticsearch-logo.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/elastic-elasticsearch-logo.png |
+| gitlab_logo.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/gitlab_logo.png |
+| gitlab_logo_black.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/gitlab_logo_black.png |
+| gitlab_logo_text.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/gitlab_logo_text.png |
 | grafana_logo_black.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/grafana_logo_black.png |
 | grafana_logo_orange.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/grafana_logo_orange.png |
 | grafana_logo_orange_text.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/grafana_logo_orange_text.png |
