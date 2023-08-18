@@ -1,26 +1,22 @@
 import os
 
 
-def generate_icon_urls(directory: str) -> tuple:
+def generate_icon_urls(directory: str) -> list:
     icon_urls = []
     for filename in os.listdir(directory):
-        if filename.endswith(".png") or filename.endswith(
-            ".svg"
-        ):  # Adjust file extension as needed
+        if filename.endswith(".png") or filename.endswith(".svg"):
             raw_url = f"https://raw.githubusercontent.com/borkempire/icons/main/icons/{filename}"
-            icon_urls.append(
-                (filename, raw_url)
-            )  # Append a tuple (filename, raw_url) to the list
+            icon_urls.append((filename, raw_url))
     return icon_urls
 
 
-def update_readme(readme_path: str, icon_urls: tuple) -> None:
+def update_readme(readme_path: str, icon_urls: list) -> None:
     sorted_icon_urls = sorted(icon_urls, key=lambda x: x[0])
 
     with open(readme_path, "r") as f:
         readme_content = f.read()
 
-    # Find the section where you want to insert the table, e.g., <!-- ICONS START --> and <!-- ICONS END -->
+    # section to insert the table
     start_marker = "<!-- ICONS START -->"
     end_marker = "<!-- ICONS END -->"
 
