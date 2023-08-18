@@ -26,8 +26,11 @@ Collection of icons which can be referenced in services.
 | grafana_logo_black.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/grafana_logo_black.png |
 | grafana_logo_orange.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/grafana_logo_orange.png |
 | grafana_logo_orange_text.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/grafana_logo_orange_text.png |
+| jfrog_artifactory_logo.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/jfrog_artifactory_logo.png |
+| jfrog_logo_green.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/jfrog_logo_green.png |
 | kafka_logo.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/kafka_logo.png |
 | kafka_logo_text.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/kafka_logo_text.png |
+| kibana_logo.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/kibana_logo.png |
 | kubernetes_logo.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/kubernetes_logo.png |
 | kubernetes_logo.svg | https://raw.githubusercontent.com/borkempire/icons/main/icons/kubernetes_logo.svg |
 | kubernetes_logo_with_border.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/kubernetes_logo_with_border.png |
