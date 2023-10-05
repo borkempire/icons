@@ -39,6 +39,7 @@ Collection of icons which can be referenced in services.
 | kubernetes_logo_with_border.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/kubernetes_logo_with_border.png |
 | kubernetes_name_blue.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/kubernetes_name_blue.png |
 | kubernetes_name_blue.svg | https://raw.githubusercontent.com/borkempire/icons/main/icons/kubernetes_name_blue.svg |
+| loki.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/loki.png |
 | outline_logo_text.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/outline_logo_text.png |
 | postgresql_logo.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/postgresql_logo.png |
 | prometheus_logo_black.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/prometheus_logo_black.png |
