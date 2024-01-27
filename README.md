@@ -13,6 +13,7 @@ Collection of icons which can be referenced in services.
 | artemis_logo_with_text.svg | https://raw.githubusercontent.com/borkempire/icons/main/icons/artemis_logo_with_text.svg |
 | aws_logo.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/aws_logo.png |
 | aws_logo.svg | https://raw.githubusercontent.com/borkempire/icons/main/icons/aws_logo.svg |
+| binary-code.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/binary-code.png |
 | cerebro_logo_bw.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/cerebro_logo_bw.png |
 | docker_logo_primary_black.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/docker_logo_primary_black.png |
 | docker_logo_primary_black_text.png | https://raw.githubusercontent.com/borkempire/icons/main/icons/docker_logo_primary_black_text.png |
